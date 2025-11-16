@@ -3,104 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>แนะนำตัว: [ชื่อนักศึกษา]</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #2a619e;
-            text-align: center;
-            border-bottom: 2px solid #2a619e;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            color: #4a90e2;
-            margin-top: 25px;
-        }
-
-        .profile-image {
-            display: block;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-            margin: 0 auto 20px;
-            border: 4px solid #4a90e2;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .contact a {
-            color: #4a90e2;
-            text-decoration: none;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>my personal website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="profile-header">
+        <img src="img/ss.JPG" alt="รูปภาพนักศึกษา" class="profile-photo">
+        <h1>Hello, welcome to my personal website</h1>
+        <p class="tagline">"มุ่งมั่น สร้างสรรค์ เรียนรู้ไม่มีที่สิ้นสุด"</p>
+    </header>
 
-    <div class="container">
-        <img src="https://www.shutterstock.com/th/search/profile-picture" alt="รูปภาพโปรไฟล์ของ [ชื่อนักศึกษา]" class="profile-image">
-        
-        <h1>การแนะนำตัว: [ชื่อ-นามสกุล นักศึกษา]</h1>
-        
-        <p style="text-align: center; font-size: 1.1em;">
-            ยินดีที่ได้รู้จักครับ/ค่ะ! ผม/ดิฉันเป็นนักศึกษาที่สนใจในด้าน **[ระบุความสนใจ/สาขาที่เรียน]**
-        </p>
-        
-        <hr>
+    <main class="container">
+        <section class="info-section">
+            <h2>ข้อมูลส่วนตัว 👋</h2>
+            <ul>
+                 <li> ชื่อ:นาย ธนภัทร สงวนเกียรติ(เสือ)</li>
+                <li>กำลังศึกษาอยู่มหาวิทยาลัยศรีปทุม ขอนแก่น ระดับชั้นปริญญาตรี คณะ:เทคโนโลยีสารสนเทศ สาขา:นวัตกรรมธุระกิจดิจิทัล</li>
+                <li>อีเมล: cesdasngwnkeiyrti@gmail.com</li>
+                
+            </ul>
+        </section>
 
-        <h2>📚 ข้อมูลการศึกษา</h2>
-        <ul>
-            <li>**ชื่อ:** [ชื่อ-นามสกุล นักศึกษา]</li>
-            <li>**รหัสนักศึกษา:** [รหัสนักศึกษา]</li>
-            <li>**คณะ:** [ชื่อคณะ]</li>
-            <li>**สาขาวิชา:** [ชื่อสาขาวิชา]</li>
-            <li>**ชั้นปี:** [ชั้นปีที่ศึกษา]</li>
-            <li>**มหาวิทยาลัย:** [ชื่อมหาวิทยาลัย]</li>
-        </ul>
+        <section class="info-section">
+            <h2>ทักษะและความสนใจ ✨</h2>
+            <div class="skills-list">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">JavaScript (Basic)</span>
+                <span class="skill-tag">C/C++</span>
+                <span class="skill-tag">Photoshop</span>
+            </div>
+            <p><strong>ความสนใจพิเศษ:</strong> การพัฒนาเว็บไซต์ด้านหน้า (Frontend Development), การออกแบบ UI/UX, และการเล่นเกมส์เชิงกลยุทธ์</p>
+        </section>
 
-        <h2>💡 ความสนใจและทักษะ</h2>
-        <p>
-            ผม/ดิฉันมีความสนใจพิเศษในเรื่อง **[เรื่องที่สนใจ 1]**, **[เรื่องที่สนใจ 2]** และมีทักษะหลักคือ **[ทักษะ 1]**, **[ทักษะ 2]** เช่น การเขียนโปรแกรมภาษา [ภาษาที่เขียนได้] หรือการใช้โปรแกรม [โปรแกรมที่ใช้เป็น]
-        </p>
-
-        <h2>📞 ช่องทางการติดต่อ</h2>
-        <ul class="contact">
-            <li>**อีเมล:** <a href="mailto:[อีเมลของคุณ]">[อีเมลของคุณ]</a></li>
-            <li>**โทรศัพท์:** [เบอร์โทรศัพท์ของคุณ (ไม่จำเป็น)]</li>
-            <li>**GitHub/LinkedIn (ถ้ามี):** <a href="https://www.pinterest.com/a_decisionmaker/social-media-portfolio/">[ชื่อบัญชี/ลิงก์]</a></li>
-        </ul>
-
-    </div>
-
+        <section class="info-section">
+            <h2>ติดต่อฉัน 🔗</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/tigerboy.ts/" target="_blank" class="social-link facebook">Facebook</a>
+                <a href="https://github.com/thanapat2565/thanapat2565" target="_blank" class="social-link github">GitHub</a>
+                <a href="https://www.tiktok.com/@sukinamdum?lang=th-TH" target="_blank" class="social-link linkedin">Tiktok</a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
